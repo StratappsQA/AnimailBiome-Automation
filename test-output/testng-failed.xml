@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ExtentReportsClass(failed)">
+    <classes>
+      <class name="com.automation.animalbiome.ExtentReportsClass">
+        <methods>
+          <include name="startReport"/>
+          <include name="SignupProcess"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.automation.animalbiome.ExtentReportsClass -->
+    </classes>
+  </test> <!-- ExtentReportsClass(failed) -->
+</suite> <!-- Failed suite [test] -->

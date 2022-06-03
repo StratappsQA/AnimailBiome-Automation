@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Signup_Newuser(failed)">
+    <classes>
+      <class name="com.automation.animalbiome.Signup_Newuser">
+        <methods>
+          <include name="SignupProcess"/>
+        </methods>
+      </class> <!-- com.automation.animalbiome.Signup_Newuser -->
+    </classes>
+  </test> <!-- Signup_Newuser(failed) -->
+  <test thread-count="5" name="AddPet_Newuser(failed)">
+    <classes>
+      <class name="com.automation.animalbiome.AddPet_NewUser">
+        <methods>
+          <include name="PetProfileCreation_NewUser"/>
+        </methods>
+      </class> <!-- com.automation.animalbiome.AddPet_NewUser -->
+    </classes>
+  </test> <!-- AddPet_Newuser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
