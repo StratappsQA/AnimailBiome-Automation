@@ -141,7 +141,7 @@ s1.selectByIndex(2);
   driver.findElement(By.xpath(prop.getProperty("vet_add_vet"))).click();
   js1.executeScript("window.scrollBy(0,300)","" ); Thread.sleep(3000);
   driver.findElement(By.xpath(prop.getProperty("final_submitbutton"))).click();
-  Thread.sleep(20000);
+  //Thread.sleep(20000);
  
 }
 }
