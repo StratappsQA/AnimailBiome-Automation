@@ -6,25 +6,68 @@
  <classes> 
  <class name="com.automation.animalbiome.Signup_Newuser"/> 
 </classes>  
- </test>  
+ </test> 
  
 <test name='AddPet_Newuser'> 
  <classes> 
  <class name="com.automation.animalbiome.AddPet_NewUser"/> 
 </classes>  
- </test> 
+ </test>
  
 <test name='Signout_NewUser'> 
  <classes> 
  <class name="com.automation.animalbiome.Signout_NewUser"/> 
 </classes>  
- </test> 
+ </test>
  
  <test name='Signin_ExistingUser'> 
  <classes> 
  <class name="com.automation.animalbiome.Signin_Existing_User"/> 
 </classes>  
- </test> 
+ </test>
+ <test name='Addpet_dog_with_imgvetdetails'> 
+ <classes> 
+    <class name="com.automation.animalbiome.Dog_Img_Vet"/> 
+</classes> 
+</test>
+<test name='Addpet_dog_with_img_without_vet'> 
+ <classes> 
+ 
+  <class name="com.automation.animalbiome.Dog_Img_NoVet"/> 
+ </classes> 
+  </test>
+  
+<test name='Addpet_dog_without_img_with_vet'> 
+ <classes> 
+  <class name="com.automation.animalbiome.Dog_NoImg_Vet"/>
+</classes> 
+</test>
+  
+ <test name='Addpet_dog_health_diet_none'>
+ <classes>
+  <class name="com.automation.animalbiome.Dog_Health_Diet_None"/> 
+</classes> 
+ </test>
+   <test name='Register_Sample_Dog_Gut'>
+ <classes>
+  <class name="com.automation.animalbiome.Register_Sample_Dog_Gut"/> 
+</classes> 
+ </test>
+ <test name='Register_sample_dog_oral'>
+ <classes>
+  <class name="com.automation.animalbiome.Register_Sample_Dog_Oral"/> 
+</classes> 
+ </test>
+  <test name='resgister_sample_cat_gut'> 
+ <classes> 
+ <class name="com.automation.animalbiome.RegisterSample_Cat_Gut"/> 
+</classes>  
+ </test>
+<test name='resgister_sample_cat_oral'> 
+ <classes> 
+ <class name="com.automation.animalbiome.Register_Sample_Cat_Oral"/> 
+</classes>  
+ </test>
  
 
-</suite> <!-- Suite -->
+</suite> 

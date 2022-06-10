@@ -23,13 +23,13 @@ final Logger logger = LogManager.getLogger(Signout_NewUser.class);
 	@Test(priority = 4, enabled = true)
 	public void Signingout_NewUser() throws InterruptedException {
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		WebElement ele = driver.findElement(By.xpath(prop.getProperty("G_My_account")));
 	    Actions action =new Actions(driver);
 	    action.moveToElement(ele).perform();
 	    Thread.sleep(4000);
 	    driver.findElement(By.xpath(prop.getProperty("G_Sign_Out"))).click();
-	    Thread.sleep(5000);
+	    Thread.sleep(6000);
 	  logger.info("NewUser is successfully signed out");
 		
 	}

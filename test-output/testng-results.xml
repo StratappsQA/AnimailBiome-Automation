@@ -1,93 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T21:59:31 IST" name="test" finished-at="2022-05-25T21:59:32 IST" duration-ms="995">
+  <suite started-at="2022-06-10T18:17:08 IST" name="test" finished-at="2022-06-10T18:18:36 IST" duration-ms="88718">
     <groups>
     </groups>
-    <test started-at="2022-05-25T21:59:31 IST" name="ExtentReportsClass" finished-at="2022-05-25T21:59:32 IST" duration-ms="995">
-      <class name="com.automation.animalbiome.ExtentReportsClass">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753]" started-at="2022-05-25T21:59:31 IST" name="startReport" finished-at="2022-05-25T21:59:31 IST" duration-ms="338" status="PASS">
+    <test started-at="2022-06-10T18:17:08 IST" name="Signin_ExistingUser" finished-at="2022-06-10T18:17:32 IST" duration-ms="24698">
+      <class name="com.automation.animalbiome.Signin_Existing_User">
+        <test-method signature="start()[pri:5, instance:com.automation.animalbiome.Signin_Existing_User@263bbfeb]" started-at="2022-06-10T18:17:08 IST" name="start" finished-at="2022-06-10T18:17:32 IST" duration-ms="24611" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method signature="OpeningWebApplication()[pri:1, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753]" started-at="2022-05-25T21:59:31 IST" name="OpeningWebApplication" finished-at="2022-05-25T21:59:31 IST" duration-ms="16" status="PASS">
+        </test-method> <!-- start -->
+      </class> <!-- com.automation.animalbiome.Signin_Existing_User -->
+    </test> <!-- Signin_ExistingUser -->
+    <test started-at="2022-06-10T18:17:32 IST" name="Register_sample_dog_oral" finished-at="2022-06-10T18:18:36 IST" duration-ms="63993">
+      <class name="com.automation.animalbiome.Register_Sample_Dog_Oral">
+        <test-method signature="register_sample_dog_oral()[pri:11, instance:com.automation.animalbiome.Register_Sample_Dog_Oral@6642dc5a]" started-at="2022-06-10T18:17:32 IST" name="register_sample_dog_oral" finished-at="2022-06-10T18:18:36 IST" duration-ms="63987" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpeningWebApplication -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753]" started-at="2022-05-25T21:59:31 IST" name="getResult" finished-at="2022-05-25T21:59:31 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=OpeningWebApplication status=SUCCESS method=ExtentReportsClass.OpeningWebApplication()[pri:1, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="SignupProcess()[pri:2, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753]" started-at="2022-05-25T21:59:31 IST" name="SignupProcess" finished-at="2022-05-25T21:59:31 IST" duration-ms="5" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at com.automation.animalbiome.ExtentReportsClass.SignupProcess(ExtentReportsClass.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignupProcess -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753]" started-at="2022-05-25T21:59:31 IST" name="getResult" finished-at="2022-05-25T21:59:31 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SignupProcess status=FAILURE method=ExtentReportsClass.SignupProcess()[pri:2, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.automation.animalbiome.ExtentReportsClass@7ef82753]" started-at="2022-05-25T21:59:31 IST" name="endReport" finished-at="2022-05-25T21:59:32 IST" duration-ms="566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.automation.animalbiome.ExtentReportsClass -->
-    </test> <!-- ExtentReportsClass -->
+        </test-method> <!-- register_sample_dog_oral -->
+      </class> <!-- com.automation.animalbiome.Register_Sample_Dog_Oral -->
+    </test> <!-- Register_sample_dog_oral -->
   </suite> <!-- test -->
 </testng-results>
