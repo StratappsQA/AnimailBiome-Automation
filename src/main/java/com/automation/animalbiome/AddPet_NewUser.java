@@ -32,13 +32,17 @@ final Logger logger = LogManager.getLogger(AddPet_NewUser.class);
     public void PetProfileCreation_NewUser() throws InterruptedException, IOException {
 	
  //---------------About My Pet----------------------	
+		
 		AboutMyPet();
 
  //----------------More About my pet----------------------------
+		
 		JavascriptExecutor js = moreAboutMyPet();
 
  //-------------------Health & Diet----------------
+		
 		healthAndDiet(js);
+		
  //---------------My Pet's Vet----------------------
 		vetDetails();
 
@@ -175,20 +179,21 @@ final Logger logger = LogManager.getLogger(AddPet_NewUser.class);
  driver.findElement(By.xpath(prop.getProperty("G_Pet_gender"))).click();
 		
  Thread.sleep(10000);
- driver.findElement(By.xpath(prop.getProperty("G_upload_image"))).click();
- Thread.sleep(10000);
- Runtime.getRuntime().exec(prop.getProperty("G_Auto_imageupload2"));
-		 
- 
- 		Thread.sleep(4000);
-		 Actions crop = new Actions(driver); Thread.sleep(10000); WebElement
-		 cropTracker=driver.findElement(By.xpath(prop.getProperty("G_crop_image")));
-		 crop.dragAndDropBy(cropTracker, -10,100).perform(); Thread.sleep(1000);
-		Thread.sleep(4000);
-		 JavascriptExecutor js = (JavascriptExecutor)driver;
-		 js.executeScript("window.scrollBy(0,300)"); Thread.sleep(1000);
-		 driver.findElement(By.xpath(prop.getProperty("G_image_submit"))).click();
-		 Thread.sleep(2000);
+	
+	  driver.findElement(By.xpath(prop.getProperty("G_upload_image"))).click();
+	  Thread.sleep(10000);
+	  Runtime.getRuntime().exec(prop.getProperty("G_Auto_imageupload2"));
+	  
+	  
+	  Thread.sleep(4000); Actions crop = new Actions(driver); Thread.sleep(10000);
+	  WebElement
+	  cropTracker=driver.findElement(By.xpath(prop.getProperty("G_crop_image")));
+	  crop.dragAndDropBy(cropTracker, -10,100).perform(); Thread.sleep(1000);
+	  Thread.sleep(4000); JavascriptExecutor js = (JavascriptExecutor)driver;
+	  js.executeScript("window.scrollBy(0,300)"); Thread.sleep(1000);
+	  driver.findElement(By.xpath(prop.getProperty("G_image_submit"))).click();
+	  Thread.sleep(2000);
+	 
 		 
  driver.findElement(By.xpath(prop.getProperty("G_first_Next_step"))).click();
  Thread.sleep(5000);

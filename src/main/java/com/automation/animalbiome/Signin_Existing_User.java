@@ -2,6 +2,7 @@ package com.automation.animalbiome;
 
 
 import java.sql.SQLException;
+
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -23,17 +24,18 @@ public class Signin_Existing_User {
 public void start() throws InterruptedException, SQLException {
 		
 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);		
-driver.get(prop.getProperty("baseUrl"));	
-driver.manage().window().maximize();
-//Thread.sleep(3000);
-//driver.findElement(By.xpath(prop.getProperty("Bannerclick"))).click();
-Thread.sleep(5000);
+
+  driver.get(prop.getProperty("baseUrl")); driver.manage().window().maximize();
+  Thread.sleep(3000);
+  driver.findElement(By.xpath(prop.getProperty("Bannerclick"))).click();
+  Thread.sleep(5000);
+ 
 driver.findElement(By.xpath(prop.getProperty("username"))).
 sendKeys(prop.getProperty("username_user"));
 driver.findElement(By.xpath(prop.getProperty("password"))).
 sendKeys(prop.getProperty("password_pdw"));
 driver.findElement(By.linkText(prop.getProperty("loginbutton"))).click();
 Thread.sleep(10000);
-logger.info("Successfully Signed Up with the Existing User");
+logger.info("Successfully Signed in with the Existing User");
 	}
 }
