@@ -6,20 +6,17 @@
  <classes> 
  <class name="com.automation.animalbiome.Signup_Newuser"/> 
 </classes>  
- </test> 
- 
+ </test>  
 <test name='AddPet_Newuser'> 
  <classes> 
  <class name="com.automation.animalbiome.AddPet_NewUser"/> 
 </classes>  
- </test>
- 
+ </test> 
 <test name='Signout_NewUser'> 
  <classes> 
  <class name="com.automation.animalbiome.Signout_NewUser"/> 
 </classes>  
  </test>
- 
  <test name='Signin_ExistingUser'> 
  <classes> 
  <class name="com.automation.animalbiome.Signin_Existing_User"/> 
@@ -42,7 +39,6 @@
   <class name="com.automation.animalbiome.Dog_NoImg_Vet"/>
 </classes> 
 </test>
-  
  <test name='Addpet_dog_health_diet_none'>
  <classes>
   <class name="com.automation.animalbiome.Dog_Health_Diet_None"/> 
@@ -68,6 +64,14 @@
  <class name="com.automation.animalbiome.Register_Sample_Cat_Oral"/> 
 </classes>  
  </test>
- 
-
+ <test name='Edit_Dog_Profile'>
+ <classes>
+  <class name="com.automation.animalbiome.Edit_Dog_Profile"/> 
+</classes>
+</test>
+<test name='MyAccount_AddCat'>
+ <classes>
+  <class name="com.automation.animalbiome.MyAccount_AddCat"/> 
+</classes>
+</test>
 </suite> 
