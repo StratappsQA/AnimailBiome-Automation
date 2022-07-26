@@ -28,6 +28,7 @@ public class Dog_Img_Vet {
 	AnimalBiomeInitializer initializer = new AnimalBiomeInitializer("Dog_Img_Vet.properties");
 	WebDriver driver = initializer.getWebDriver();
 	Properties prop = initializer.getProperties();
+	
 	@Test(priority=7, enabled=true)
 	
 	public void PetProfileCreation_Existuser_Dod_Img_vet() throws Exception {
@@ -145,15 +146,17 @@ public class Dog_Img_Vet {
 		driver.findElement(By.xpath(prop.getProperty("pet_months"))).sendKeys("3");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath(prop.getProperty("male_radiobutton"))).click();
-		WebElement pet_profile=driver.findElement(By.xpath(prop.getProperty("profile_image")));
-		JavascriptExecutor js1 = (JavascriptExecutor) driver;
-		js1.executeScript("window.scrollBy(0,400)","" );
-		Thread.sleep(5000);
-		 driver.findElement(By.xpath(prop.getProperty("profile_image"))).click();
-		 Thread.sleep(5000);
-		 Runtime.getRuntime().exec(prop.getProperty("Archer_image"));
-		 Thread.sleep(10000);  
-		 driver.findElement(By.xpath(prop.getProperty("popup_submitbutton"))).click();
+		/*
+		 * WebElement
+		 * pet_profile=driver.findElement(By.xpath(prop.getProperty("profile_image")));
+		 * JavascriptExecutor js1 = (JavascriptExecutor) driver;
+		 * js1.executeScript("window.scrollBy(0,400)","" ); Thread.sleep(5000);
+		 * driver.findElement(By.xpath(prop.getProperty("profile_image"))).click();
+		 * Thread.sleep(5000);
+		 * Runtime.getRuntime().exec(prop.getProperty("Archer_image"));
+		 * Thread.sleep(10000);
+		 * driver.findElement(By.xpath(prop.getProperty("popup_submitbutton"))).click();
+		 */
 		driver.findElement(By.xpath(prop.getProperty("aboutpet_nextstepbutton"))).click();
 		Thread.sleep(5000);
 		 logger.info("Provided the Details in About My Pet Section----Success");

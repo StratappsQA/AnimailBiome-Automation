@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-10T18:17:08 IST" name="test" finished-at="2022-06-10T18:18:36 IST" duration-ms="88718">
+  <suite started-at="2022-07-12T20:06:52 IST" name="test" finished-at="2022-07-12T20:11:04 IST" duration-ms="252642">
     <groups>
     </groups>
-    <test started-at="2022-06-10T18:17:08 IST" name="Signin_ExistingUser" finished-at="2022-06-10T18:17:32 IST" duration-ms="24698">
-      <class name="com.automation.animalbiome.Signin_Existing_User">
-        <test-method signature="start()[pri:5, instance:com.automation.animalbiome.Signin_Existing_User@263bbfeb]" started-at="2022-06-10T18:17:08 IST" name="start" finished-at="2022-06-10T18:17:32 IST" duration-ms="24611" status="PASS">
+    <test started-at="2022-07-12T20:06:52 IST" name="Signup_Newuser" finished-at="2022-07-12T20:08:00 IST" duration-ms="68958">
+      <class name="com.automation.animalbiome.Signup_Newuser">
+        <test-method signature="OpeningWebApplication()[pri:1, instance:com.automation.animalbiome.Signup_Newuser@7f6874f2]" started-at="2022-07-12T20:06:52 IST" name="OpeningWebApplication" finished-at="2022-07-12T20:07:01 IST" duration-ms="9179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-      </class> <!-- com.automation.animalbiome.Signin_Existing_User -->
-    </test> <!-- Signin_ExistingUser -->
-    <test started-at="2022-06-10T18:17:32 IST" name="Register_sample_dog_oral" finished-at="2022-06-10T18:18:36 IST" duration-ms="63993">
-      <class name="com.automation.animalbiome.Register_Sample_Dog_Oral">
-        <test-method signature="register_sample_dog_oral()[pri:11, instance:com.automation.animalbiome.Register_Sample_Dog_Oral@6642dc5a]" started-at="2022-06-10T18:17:32 IST" name="register_sample_dog_oral" finished-at="2022-06-10T18:18:36 IST" duration-ms="63987" status="PASS">
+        </test-method> <!-- OpeningWebApplication -->
+        <test-method signature="SignupProcess()[pri:2, instance:com.automation.animalbiome.Signup_Newuser@7f6874f2]" started-at="2022-07-12T20:07:01 IST" name="SignupProcess" finished-at="2022-07-12T20:08:00 IST" duration-ms="59708" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register_sample_dog_oral -->
-      </class> <!-- com.automation.animalbiome.Register_Sample_Dog_Oral -->
-    </test> <!-- Register_sample_dog_oral -->
+        </test-method> <!-- SignupProcess -->
+      </class> <!-- com.automation.animalbiome.Signup_Newuser -->
+    </test> <!-- Signup_Newuser -->
+    <test started-at="2022-07-12T20:08:01 IST" name="AddPet_Newuser" finished-at="2022-07-12T20:10:49 IST" duration-ms="168076">
+      <class name="com.automation.animalbiome.AddPet_NewUser">
+        <test-method signature="PetProfileCreation_NewUser()[pri:3, instance:com.automation.animalbiome.AddPet_NewUser@2aaf152b]" started-at="2022-07-12T20:08:01 IST" name="PetProfileCreation_NewUser" finished-at="2022-07-12T20:10:49 IST" duration-ms="168069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PetProfileCreation_NewUser -->
+      </class> <!-- com.automation.animalbiome.AddPet_NewUser -->
+    </test> <!-- AddPet_Newuser -->
+    <test started-at="2022-07-12T20:10:49 IST" name="Signout_NewUser" finished-at="2022-07-12T20:11:04 IST" duration-ms="15536">
+      <class name="com.automation.animalbiome.Signout_NewUser">
+        <test-method signature="Signingout_NewUser()[pri:4, instance:com.automation.animalbiome.Signout_NewUser@79a7bfbc]" started-at="2022-07-12T20:10:49 IST" name="Signingout_NewUser" finished-at="2022-07-12T20:11:04 IST" duration-ms="15525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signingout_NewUser -->
+      </class> <!-- com.automation.animalbiome.Signout_NewUser -->
+    </test> <!-- Signout_NewUser -->
   </suite> <!-- test -->
 </testng-results>
