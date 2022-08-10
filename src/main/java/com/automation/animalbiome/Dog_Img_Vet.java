@@ -134,7 +134,6 @@ public class Dog_Img_Vet {
 		logger.info("Provided the Details in More About My Pet Section----Success");
 		return js;
 	}
-	
 	private void AboutMyPet() throws InterruptedException, IOException {
 		logger.info("Started Creating the Dog Profile for exist User with image and vet details");
 		WebDriverWait AddPetButton = new WebDriverWait(driver,50);
