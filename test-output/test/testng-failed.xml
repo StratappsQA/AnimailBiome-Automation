@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [test]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Addpet_dog_with_imgvetdetails(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test]">
+  <test thread-count="5" name="Signup_Newuser(failed)">
     <classes>
-      <class name="com.automation.animalbiome.Dog_Img_Vet">
+      <class name="com.automation.animalbiome.Signup_Newuser">
         <methods>
-          <include name="PetProfileCreation_Existuser_Dod_Img_vet"/>
+          <include name="SignupProcess"/>
         </methods>
-      </class> <!-- com.automation.animalbiome.Dog_Img_Vet -->
+      </class> <!-- com.automation.animalbiome.Signup_Newuser -->
     </classes>
-  </test> <!-- Addpet_dog_with_imgvetdetails(failed) -->
+  </test> <!-- Signup_Newuser(failed) -->
+  <test thread-count="5" name="AddPet_Newuser(failed)">
+    <classes>
+      <class name="com.automation.animalbiome.AddPet_NewUser">
+        <methods>
+          <include name="PetProfileCreation_NewUser"/>
+        </methods>
+      </class> <!-- com.automation.animalbiome.AddPet_NewUser -->
+    </classes>
+  </test> <!-- AddPet_Newuser(failed) -->
+  <test thread-count="5" name="Signout_NewUser(failed)">
+    <classes>
+      <class name="com.automation.animalbiome.Signout_NewUser">
+        <methods>
+          <include name="Signingout_NewUser"/>
+        </methods>
+      </class> <!-- com.automation.animalbiome.Signout_NewUser -->
+    </classes>
+  </test> <!-- Signout_NewUser(failed) -->
 </suite> <!-- Failed suite [test] -->

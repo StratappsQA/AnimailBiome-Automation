@@ -577,3 +577,8 @@
 2022-07-12T20:10:49.103+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
 2022-07-12T20:10:49.104+0530 INFO Successfully Completed the Pet Profile for the New User
 2022-07-12T20:11:04.658+0530 INFO NewUser is successfully signed out
+2022-10-11T13:05:24.512+0530 INFO Opening the WebApplication
+2022-10-11T13:05:33.556+0530 INFO Successfully Opened the Web Application
+2022-10-11T13:05:33.562+0530 INFO Signing up to the application
+2022-10-11T13:05:53.712+0530 INFO Signing with the New Email Address
+2022-10-11T13:06:19.982+0530 INFO Started Creating the Pet Profile for New User
