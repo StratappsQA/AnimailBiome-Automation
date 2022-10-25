@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="test">
 
-<test name='Signup_Newuser'> 
+<!-- <test name='Signup_Newuser'> 
  <classes> 
  <class name="com.automation.animalbiome.Signup_Newuser"/> 
 </classes>  
- </test>  
+ </test>   -->
  
 <test name='AddPet_Newuser'> 
  <classes> 
