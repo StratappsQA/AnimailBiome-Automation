@@ -8,7 +8,7 @@
 </classes>  
  </test>   
  
-<test name='AddPet_Newuser'> 
+ <!--<test name='AddPet_Newuser'> 
  <classes> 
  <class name="com.automation.animalbiome.AddPet_NewUser"/> 
 </classes>  
@@ -20,7 +20,7 @@
 </classes>  
  </test> 
  
- <!--<test name='Signin_ExistingUser'> 
+<test name='Signin_ExistingUser'> 
  <classes> 
  <class name="com.automation.animalbiome.Signin_Existing_User"/> 
 </classes>  

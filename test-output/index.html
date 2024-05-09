@@ -24,22 +24,22 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-test">
+            <a href="#" panel-name="suite-test" class="navigator-link">
               <span class="suite-name border-failed">test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-test">
-                    <span>D:\GitHub\animalBiome_Automation\AnimailBiome-Automation\testng.xml</span>
+                  <a href="#" panel-name="test-xml-test" class="navigator-link ">
+                    <span>D:\Automation\AnimailBiome-Automation\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-test">
-                    <span class="test-stats">3 tests</span>
+                  <a href="#" panel-name="testlist-test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-test">
+                  <a href="#" panel-name="group-test" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-test">
+                  <a href="#" panel-name="times-test" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-test">
+                  <a href="#" panel-name="reporter-test" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-test">
+                  <a href="#" panel-name="ignored-methods-test" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-test">
+                  <a href="#" panel-name="chronological-test" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,18 +103,8 @@
                     </span>
                     <div class="method-list-content failed suite-test">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test" title="com.automation.animalbiome.AddPet_NewUser" hash-for-method="PetProfileCreation_NewUser">PetProfileCreation_NewUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test" title="com.automation.animalbiome.Signout_NewUser" hash-for-method="Signingout_NewUser">Signingout_NewUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test" title="com.automation.animalbiome.Signup_Newuser" hash-for-method="SignupProcess">SignupProcess</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.automation.animalbiome.Signup_Newuser" class="method navigator-link" hash-for-method="SignupProcess">SignupProcess</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-test -->
@@ -127,8 +117,8 @@
                     </span>
                     <div class="method-list-content passed suite-test">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test" title="com.automation.animalbiome.Signup_Newuser" hash-for-method="OpeningWebApplication">OpeningWebApplication</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.automation.animalbiome.Signup_Newuser" class="method navigator-link" hash-for-method="OpeningWebApplication">OpeningWebApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-test -->
@@ -146,83 +136,6 @@
           <div class="suite-test-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.automation.animalbiome.AddPet_NewUser</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="PetProfileCreation_NewUser">
-                  </a> <!-- PetProfileCreation_NewUser -->
-                  <span class="method-name">PetProfileCreation_NewUser</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@id=&apos;petName&apos;])[1]&quot;}
-  (Session info: chrome=106.0.5249.103)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
-System info: host: &apos;ANOJ-SA&apos;, ip: &apos;172.16.16.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Anoj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5199e76eff31dc1de0f40d62cda30fb5
-*** Element info: {Using=xpath, value=(//*[@id=&apos;petName&apos;])[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.automation.animalbiome.AddPet_NewUser.AboutMyPet(AddPet_NewUser.java:176)
-	at com.automation.animalbiome.AddPet_NewUser.PetProfileCreation_NewUser(AddPet_NewUser.java:36)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-test-class-failed -->
-          <div class="suite-test-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.automation.animalbiome.Signout_NewUser</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Signingout_NewUser">
-                  </a> <!-- Signingout_NewUser -->
-                  <span class="method-name">Signingout_NewUser</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;My Account&apos;)]&quot;}
-  (Session info: chrome=106.0.5249.103)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
-System info: host: &apos;ANOJ-SA&apos;, ip: &apos;172.16.16.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Anoj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5199e76eff31dc1de0f40d62cda30fb5
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;My Account&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.automation.animalbiome.Signout_NewUser.Signingout_NewUser(Signout_NewUser.java:27)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-test-class-failed -->
-          <div class="suite-test-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">com.automation.animalbiome.Signup_Newuser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -231,15 +144,15 @@ Session ID: 5199e76eff31dc1de0f40d62cda30fb5
                   <a name="SignupProcess">
                   </a> <!-- SignupProcess -->
                   <span class="method-name">SignupProcess</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[3]/div[1]/div[3]/button[1]&quot;}
-  (Session info: chrome=106.0.5249.103)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/app-root[1]/div[1]/app-signup[1]/section[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[2]/div[1]/input[1]&quot;}
+  (Session info: chrome=124.0.6367.119)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
-System info: host: &apos;ANOJ-SA&apos;, ip: &apos;172.16.16.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
+System info: host: &apos;BANOJ-1-SA&apos;, ip: &apos;172.16.16.127&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Anoj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5199e76eff31dc1de0f40d62cda30fb5
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[3]/div[1]/div[3]/button[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\banoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a81c4c68b93033a1ba2af7648bd4a333
+*** Element info: {Using=xpath, value=//body/app-root[1]/div[1]/app-signup[1]/section[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[2]/div[1]/input[1]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -250,10 +163,9 @@ Session ID: 5199e76eff31dc1de0f40d62cda30fb5
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.automation.animalbiome.Signup_Newuser.signUpByAddingTimeStampToEmailId(Signup_Newuser.java:128)
-	at com.automation.animalbiome.Signup_Newuser.SignupProcess(Signup_Newuser.java:83)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
+	at com.automation.animalbiome.Signup_Newuser.SignupProcess(Signup_Newuser.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -277,28 +189,18 @@ Session ID: 5199e76eff31dc1de0f40d62cda30fb5
         </div> <!-- panel test -->
         <div panel-name="test-xml-test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\GitHub\animalBiome_Automation\AnimailBiome-Automation\testng.xml</span>
+            <span class="header-content">D:\Automation\AnimailBiome-Automation\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;test&quot;&gt;
+&lt;suite name=&quot;test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Signup_Newuser&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.automation.animalbiome.Signup_Newuser&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Signup_Newuser --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;AddPet_Newuser&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.automation.animalbiome.AddPet_NewUser&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- AddPet_Newuser --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Signout_NewUser&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.automation.animalbiome.Signout_NewUser&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Signout_NewUser --&gt;
 &lt;/suite&gt; &lt;!-- test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -311,12 +213,6 @@ Session ID: 5199e76eff31dc1de0f40d62cda30fb5
             <ul>
               <li>
                 <span class="test-name">Signup_Newuser (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">AddPet_Newuser (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Signout_NewUser (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -342,28 +238,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SignupProcess')
+data.setCell(0, 1, 'OpeningWebApplication')
 data.setCell(0, 2, 'com.automation.animalbiome.Signup_Newuser')
-data.setCell(0, 3, 46393);
+data.setCell(0, 3, 46417);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'OpeningWebApplication')
+data.setCell(1, 1, 'SignupProcess')
 data.setCell(1, 2, 'com.automation.animalbiome.Signup_Newuser')
-data.setCell(1, 3, 9053);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'PetProfileCreation_NewUser')
-data.setCell(2, 2, 'com.automation.animalbiome.AddPet_NewUser')
-data.setCell(2, 3, 8086);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Signingout_NewUser')
-data.setCell(3, 2, 'com.automation.animalbiome.Signout_NewUser')
-data.setCell(3, 3, 5034);
+data.setCell(1, 3, 8418);
 window.suiteTableData['test']= { tableData: data, tableDiv: 'times-div-test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
               <div id="times-div-test">
               </div> <!-- times-div-test -->
             </div> <!-- times-div -->
@@ -398,25 +286,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SignupProcess</span>
-                <span class="method-start">9058 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.automation.animalbiome.AddPet_NewUser</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">PetProfileCreation_NewUser</span>
-                <span class="method-start">55478 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.automation.animalbiome.Signout_NewUser</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Signingout_NewUser</span>
-                <span class="method-start">63592 ms</span>
+                <span class="method-start">46428 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

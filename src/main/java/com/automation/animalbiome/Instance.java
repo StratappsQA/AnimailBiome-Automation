@@ -14,14 +14,11 @@ public class Instance {
 		  public static WebDriver getInstance() 	  {
 			  if (driver == null) 
 			   {
-				  
-				//System.setProperty("webdriver.chrome.driver","D:\\Selenium\\chromedriver.exe");
-				WebDriverManager.chromedriver().setup();
-			   	ChromeOptions options = new ChromeOptions();
-			   	//options.setBinary("C:\\ThePAthtoChrome.exe");
-			   	options.addArguments("incognito");
-			   	options.addArguments("use-fake-ui-for-media-stream"); 
-			   	driver = new ChromeDriver(options);
+				  	WebDriverManager.chromedriver().setup();  
+				   	ChromeOptions options = new ChromeOptions();
+				   	options.addArguments("incognito");
+				   	options.addArguments("use-fake-ui-for-media-stream"); 
+				   	driver = new ChromeDriver(options);
 			   }
 			   return driver;
 			 }

@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 import com.automation.animalbiome.util.AnimalBiomeInitializer;
 import com.automation.animalbiome.util.ElementFinder;
 
+
 public class Signup_Newuser {
 
 	final Logger logger = LogManager.getLogger(Signup_Newuser.class);
@@ -36,12 +37,18 @@ public class Signup_Newuser {
 
 		driver.get("https://release.animalbiome.com/signin");
 
-		driver.manage().window().maximize();
-		// Thread.sleep(4000);
+		driver.manage().window().maximize();		
 
-		WebDriverWait wait = new WebDriverWait(driver, 40);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(prop.getProperty("Bannerclick"))));
-		ElementFinder.findXPathElementAndClick(driver, "Bannerclick", prop);
+		/*
+		 * WebDriverWait wait = new WebDriverWait(driver, 40);
+		 * wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(prop.
+		 * getProperty("Bannerclick")))); ElementFinder.findXPathElementAndClick(driver,
+		 * "Bannerclick", prop);
+		 */
+		Thread.sleep(3000);
+		driver.findElement(By.xpath(prop.getProperty("AB_AccessCode"))).sendKeys(prop.getProperty("AccessCode"));
+		Thread.sleep(2000);
+		driver.findElement(By.xpath(prop.getProperty("Accessbutton"))).click();		
 		logger.info("Successfully Opened the Web Application");
 	}
 
