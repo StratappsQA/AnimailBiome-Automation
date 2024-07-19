@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [test]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="resgister_sample_cat_oral(failed)">
+  <test thread-count="5" name="Signup_Newuser(failed)">
     <classes>
-      <class name="com.automation.animalbiome.Register_Sample_Cat_Oral">
+      <class name="com.automation.animalbiome.Signup_Newuser">
         <methods>
-          <include name="register_sample_cat_oral"/>
+          <include name="SignupProcess"/>
         </methods>
-      </class> <!-- com.automation.animalbiome.Register_Sample_Cat_Oral -->
+      </class> <!-- com.automation.animalbiome.Signup_Newuser -->
     </classes>
-  </test> <!-- resgister_sample_cat_oral(failed) -->
+  </test> <!-- Signup_Newuser(failed) -->
 </suite> <!-- Failed suite [test] -->

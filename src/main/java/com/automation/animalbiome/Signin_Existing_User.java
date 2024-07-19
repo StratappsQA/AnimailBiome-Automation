@@ -20,15 +20,18 @@ public class Signin_Existing_User {
 	Properties prop = PropertiesFile.readPropertyFile("Signin_Existing_User.properties");
 	
 	
-	@Test(priority=5, enabled=true)
-public void start() throws InterruptedException, SQLException {
+	
+@Test(priority=5, enabled=true)
+public void signin_existinguser() throws InterruptedException, SQLException {
 		
 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);		
 
-  driver.get(prop.getProperty("baseUrl")); driver.manage().window().maximize();
-  Thread.sleep(3000);
-  driver.findElement(By.xpath(prop.getProperty("Bannerclick"))).click();
-  Thread.sleep(5000);
+
+ driver.get(prop.getProperty("baseUrl")); driver.manage().window().maximize();
+ Thread.sleep(3000);
+ driver.findElement(By.xpath(prop.getProperty("Bannerclick"))).click();
+ Thread.sleep(5000);
+ 
  
 driver.findElement(By.xpath(prop.getProperty("username"))).
 sendKeys(prop.getProperty("username_user"));
@@ -39,3 +42,4 @@ Thread.sleep(10000);
 logger.info("Successfully Signed in with the Existing User");
 	}
 }
+

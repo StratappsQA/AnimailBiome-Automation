@@ -438,3 +438,157 @@
 2022-06-10T18:15:25.159+0530 INFO Oral Sample for Cat Registered Successfully
 2022-06-10T18:17:32.813+0530 INFO Successfully Signed in with the Existing User
 2022-06-10T18:18:36.862+0530 INFO Oral sample for Dog Registered Successfully
+2022-06-26T21:20:44.694+0530 INFO Opening the WebApplication
+2022-06-26T21:20:52.568+0530 INFO Successfully Opened the Web Application
+2022-06-26T21:20:52.578+0530 INFO Signing up to the application
+2022-06-26T21:21:12.845+0530 INFO Signing with the New Email Address
+2022-06-26T21:21:46.153+0530 INFO Successfully Signedup to the application with New Email Address
+2022-06-26T21:21:46.153+0530 INFO Started Signin process with the new email address
+2022-06-26T21:21:50.627+0530 INFO Successfully SignedIn to the application with the new email address
+2022-06-26T21:21:50.658+0530 INFO Started Creating the Pet Profile for New User
+2022-06-26T21:22:47.817+0530 INFO Provided the Details in About My Pet Section----Success
+2022-06-26T21:22:47.818+0530 INFO Providing the details in More about my pet section
+2022-06-26T21:23:00.006+0530 INFO Provided the Details in More About My Pet Section----Success
+2022-06-26T21:23:00.007+0530 INFO Providing the details in Health & Diet Section
+2022-06-26T21:23:47.141+0530 INFO Provided the details of  Health & Diet and Clicked on Confirm Button----Success
+2022-06-26T21:23:47.142+0530 INFO Providing the Vet details
+2022-06-26T21:24:35.800+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
+2022-06-26T21:24:35.801+0530 INFO Successfully Completed the Pet Profile for the New User
+2022-06-26T21:24:51.191+0530 INFO NewUser is successfully signed out
+2022-06-26T21:25:10.974+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-06-26T21:26:12.642+0530 INFO Started Creating the Dog Profile for exist User with image and no vet
+2022-06-26T21:27:14.375+0530 INFO Started Creating the Dog Profile for exist User with no image and vet details
+2022-06-26T21:28:16.101+0530 INFO Started Creating the Dog Profile for exist User with health and diet none
+2022-06-26T21:34:26.184+0530 INFO Started editing the Dog Profile through the Dashbpoard
+2022-06-26T21:35:16.284+0530 INFO Started Creating the Cat Profile for exist User with my account
+2022-06-28T10:12:25.501+0530 INFO Opening the WebApplication
+2022-06-28T10:12:42.469+0530 INFO Successfully Opened the Web Application
+2022-06-28T10:12:42.481+0530 INFO Signing up to the application
+2022-06-28T10:13:03.118+0530 INFO Signing with the New Email Address
+2022-06-28T10:13:36.479+0530 INFO Successfully Signedup to the application with New Email Address
+2022-06-28T10:13:36.480+0530 INFO Started Signin process with the new email address
+2022-06-28T10:13:40.990+0530 INFO Successfully SignedIn to the application with the new email address
+2022-06-28T10:13:41.032+0530 INFO Started Creating the Pet Profile for New User
+2022-06-28T10:14:38.755+0530 INFO Provided the Details in About My Pet Section----Success
+2022-06-28T10:14:38.755+0530 INFO Providing the details in More about my pet section
+2022-06-28T10:14:51.955+0530 INFO Provided the Details in More About My Pet Section----Success
+2022-06-28T10:14:51.955+0530 INFO Providing the details in Health & Diet Section
+2022-06-28T10:15:40.232+0530 INFO Provided the details of  Health & Diet and Clicked on Confirm Button----Success
+2022-06-28T10:15:40.232+0530 INFO Providing the Vet details
+2022-06-28T10:16:29.213+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
+2022-06-28T10:16:29.214+0530 INFO Successfully Completed the Pet Profile for the New User
+2022-06-28T10:16:44.640+0530 INFO NewUser is successfully signed out
+2022-06-28T10:22:10.919+0530 INFO Opening the WebApplication
+2022-06-28T10:22:19.037+0530 INFO Successfully Opened the Web Application
+2022-06-28T10:22:19.051+0530 INFO Signing up to the application
+2022-06-28T10:22:39.239+0530 INFO Signing with the New Email Address
+2022-06-28T10:23:12.485+0530 INFO Successfully Signedup to the application with New Email Address
+2022-06-28T10:23:12.485+0530 INFO Started Signin process with the new email address
+2022-06-28T10:23:17.112+0530 INFO Successfully SignedIn to the application with the new email address
+2022-06-28T10:23:17.151+0530 INFO Started Creating the Pet Profile for New User
+2022-06-28T10:24:14.185+0530 INFO Provided the Details in About My Pet Section----Success
+2022-06-28T10:24:14.186+0530 INFO Providing the details in More about my pet section
+2022-06-28T10:24:27.546+0530 INFO Provided the Details in More About My Pet Section----Success
+2022-06-28T10:24:27.546+0530 INFO Providing the details in Health & Diet Section
+2022-06-28T10:25:15.235+0530 INFO Provided the details of  Health & Diet and Clicked on Confirm Button----Success
+2022-06-28T10:25:15.235+0530 INFO Providing the Vet details
+2022-06-28T10:26:04.032+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
+2022-06-28T10:26:04.033+0530 INFO Successfully Completed the Pet Profile for the New User
+2022-06-28T10:26:19.468+0530 INFO NewUser is successfully signed out
+2022-06-28T10:26:29.953+0530 INFO Successfully Signed in with the Existing User
+2022-06-28T10:31:34.193+0530 INFO Successfully Signed in with the Existing User
+2022-06-28T10:31:34.249+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-06-28T10:31:50.981+0530 INFO Started Creating the Dog Profile for exist User with image and no vet
+2022-06-28T10:32:52.735+0530 INFO Started Creating the Dog Profile for exist User with no image and vet details
+2022-06-28T10:33:54.487+0530 INFO Started Creating the Dog Profile for exist User with health and diet none
+2022-06-28T10:35:06.258+0530 INFO Started editing the Dog Profile through the Dashbpoard
+2022-06-28T10:35:56.371+0530 INFO Started Creating the Cat Profile for exist User with my account
+2022-06-28T10:50:07.115+0530 INFO Successfully Signed in with the Existing User
+2022-06-28T10:50:07.168+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-06-28T10:50:23.837+0530 INFO Started Creating the Dog Profile for exist User with image and no vet
+2022-06-28T10:51:25.409+0530 INFO Started Creating the Dog Profile for exist User with no image and vet details
+2022-06-28T10:52:26.750+0530 INFO Started Creating the Dog Profile for exist User with health and diet none
+2022-06-29T11:45:28.124+0530 INFO Successfully Signed in with the Existing User
+2022-06-29T11:45:28.155+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-06-29T11:45:45.059+0530 INFO Started Creating the Dog Profile for exist User with image and no vet
+2022-06-29T11:46:46.790+0530 INFO Started Creating the Dog Profile for exist User with no image and vet details
+2022-06-29T11:47:48.609+0530 INFO Started Creating the Dog Profile for exist User with health and diet none
+2022-07-10T22:09:28.606+0530 INFO Opening the WebApplication
+2022-07-10T22:09:41.631+0530 INFO Successfully Opened the Web Application
+2022-07-10T22:09:41.640+0530 INFO Signing up to the application
+2022-07-10T22:10:02.375+0530 INFO Signing with the New Email Address
+2022-07-10T22:10:35.907+0530 INFO Successfully Signedup to the application with New Email Address
+2022-07-10T22:10:35.908+0530 INFO Started Signin process with the new email address
+2022-07-10T22:10:40.559+0530 INFO Successfully SignedIn to the application with the new email address
+2022-07-10T23:31:37.117+0530 INFO Opening the WebApplication
+2022-07-10T23:31:45.792+0530 INFO Successfully Opened the Web Application
+2022-07-10T23:31:45.802+0530 INFO Signing up to the application
+2022-07-10T23:32:06.229+0530 INFO Signing with the New Email Address
+2022-07-10T23:32:39.875+0530 INFO Successfully Signedup to the application with New Email Address
+2022-07-10T23:32:39.876+0530 INFO Started Signin process with the new email address
+2022-07-10T23:32:44.543+0530 INFO Successfully SignedIn to the application with the new email address
+2022-07-10T23:32:44.572+0530 INFO Started Creating the Pet Profile for New User
+2022-07-10T23:33:44.678+0530 INFO Provided the Details in About My Pet Section----Success
+2022-07-10T23:33:44.679+0530 INFO Providing the details in More about my pet section
+2022-07-10T23:33:57.234+0530 INFO Provided the Details in More About My Pet Section----Success
+2022-07-10T23:33:57.235+0530 INFO Providing the details in Health & Diet Section
+2022-07-10T23:34:44.973+0530 INFO Provided the details of  Health & Diet and Clicked on Confirm Button----Success
+2022-07-10T23:34:44.974+0530 INFO Providing the Vet details
+2022-07-10T23:35:34.200+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
+2022-07-10T23:35:34.201+0530 INFO Successfully Completed the Pet Profile for the New User
+2022-07-10T23:35:49.763+0530 INFO NewUser is successfully signed out
+2022-07-10T23:36:09.936+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-07-10T23:42:25.615+0530 INFO Successfully Signed in with the Existing User
+2022-07-10T23:42:25.660+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-07-10T23:45:45.433+0530 INFO Successfully Signed in with the Existing User
+2022-07-10T23:45:45.492+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-07-10T23:45:57.243+0530 INFO Provided the Details in About My Pet Section----Success
+2022-07-10T23:45:57.243+0530 INFO Providing the details in More about my pet section
+2022-07-10T23:46:22.867+0530 INFO Provided the Details in More About My Pet Section----Success
+2022-07-10T23:46:22.867+0530 INFO Providing the details in Health & Diet Section
+2022-07-10T23:46:52.212+0530 INFO Provided the details of  Health & Diet and Clicked on Confirm Button----Success
+2022-07-10T23:46:52.212+0530 INFO Providing the Vet details
+2022-07-10T23:47:27.048+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
+2022-07-10T23:47:27.049+0530 INFO Successfully Completed the Dog  Profile with image and vet details
+2022-07-11T17:09:35.966+0530 INFO Successfully Signed in with the Existing User
+2022-07-11T17:09:36.031+0530 INFO Started Creating the Dog Profile for exist User with image and vet details
+2022-07-11T17:09:47.809+0530 INFO Provided the Details in About My Pet Section----Success
+2022-07-11T17:09:47.810+0530 INFO Providing the details in More about my pet section
+2022-07-11T17:10:12.894+0530 INFO Provided the Details in More About My Pet Section----Success
+2022-07-11T17:10:12.895+0530 INFO Providing the details in Health & Diet Section
+2022-07-11T17:10:42.274+0530 INFO Provided the details of  Health & Diet and Clicked on Confirm Button----Success
+2022-07-11T17:10:42.275+0530 INFO Providing the Vet details
+2022-07-11T17:11:17.042+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
+2022-07-11T17:11:17.043+0530 INFO Successfully Completed the Dog  Profile with image and vet details
+2022-07-12T20:06:52.121+0530 INFO Opening the WebApplication
+2022-07-12T20:07:01.258+0530 INFO Successfully Opened the Web Application
+2022-07-12T20:07:01.268+0530 INFO Signing up to the application
+2022-07-12T20:07:22.406+0530 INFO Signing with the New Email Address
+2022-07-12T20:07:56.327+0530 INFO Successfully Signedup to the application with New Email Address
+2022-07-12T20:07:56.327+0530 INFO Started Signin process with the new email address
+2022-07-12T20:08:00.974+0530 INFO Successfully SignedIn to the application with the new email address
+2022-07-12T20:08:01.039+0530 INFO Started Creating the Pet Profile for New User
+2022-07-12T20:08:59.098+0530 INFO Provided the Details in About My Pet Section----Success
+2022-07-12T20:08:59.099+0530 INFO Providing the details in More about my pet section
+2022-07-12T20:09:11.845+0530 INFO Provided the Details in More About My Pet Section----Success
+2022-07-12T20:09:11.845+0530 INFO Providing the details in Health & Diet Section
+2022-07-12T20:09:59.840+0530 INFO Provided the details of  Health & Diet and Clicked on Confirm Button----Success
+2022-07-12T20:09:59.842+0530 INFO Providing the Vet details
+2022-07-12T20:10:49.103+0530 INFO Provided the Vet Details and clicked on Submit Button----Success
+2022-07-12T20:10:49.104+0530 INFO Successfully Completed the Pet Profile for the New User
+2022-07-12T20:11:04.658+0530 INFO NewUser is successfully signed out
+2022-10-11T13:05:24.512+0530 INFO Opening the WebApplication
+2022-10-11T13:05:33.556+0530 INFO Successfully Opened the Web Application
+2022-10-11T13:05:33.562+0530 INFO Signing up to the application
+2022-10-11T13:05:53.712+0530 INFO Signing with the New Email Address
+2022-10-11T13:06:19.982+0530 INFO Started Creating the Pet Profile for New User
+2024-05-09T17:55:22.366+0530 INFO Opening the WebApplication
+2024-05-09T17:55:35.998+0530 INFO Signing up to the application
+2024-05-09T18:03:39.627+0530 INFO Opening the WebApplication
+2024-05-09T18:05:01.265+0530 INFO Signing up to the application
+2024-05-09T18:06:56.093+0530 INFO Opening the WebApplication
+2024-05-09T18:07:42.427+0530 INFO Successfully Opened the Web Application
+2024-05-09T18:07:42.434+0530 INFO Signing up to the application
+2024-05-09T18:13:57.540+0530 INFO Opening the WebApplication
+2024-05-09T18:14:43.934+0530 INFO Successfully Opened the Web Application
+2024-05-09T18:14:43.950+0530 INFO Signing up to the application
