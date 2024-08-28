@@ -29,9 +29,17 @@ driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
  driver.get(prop.getProperty("baseUrl")); driver.manage().window().maximize();
  Thread.sleep(3000);
- driver.findElement(By.xpath(prop.getProperty("Bannerclick"))).click();
+ //driver.findElement(By.xpath(prop.getProperty("Bannerclick"))).click();
  Thread.sleep(5000);
  
+driver.switchTo(); // switching to pop-up
+driver.findElement(By.xpath(prop.getProperty("Access_Code"))).sendKeys(prop.getProperty("Authentication_key"));
+Thread.sleep(2000);
+//driver.findElement(By.xpath("//i[@class='fa fa-eye']")).click();
+Thread.sleep(2000);
+driver.findElement(By.xpath(prop.getProperty("Access_Button"))).click();
+Thread.sleep(2000);
+System.out.println("Access Sucessfully");
  
 driver.findElement(By.xpath(prop.getProperty("username"))).
 sendKeys(prop.getProperty("username_user"));

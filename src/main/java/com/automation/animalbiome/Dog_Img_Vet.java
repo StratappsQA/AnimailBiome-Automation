@@ -136,8 +136,11 @@ public class Dog_Img_Vet {
 	}
 	private void AboutMyPet() throws InterruptedException, IOException {
 		logger.info("Started Creating the Dog Profile for exist User with image and vet details");
-		WebDriverWait AddPetButton = new WebDriverWait(driver,50);
-		AddPetButton.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty("addpet_button")))).click(); 
+		/*
+		 * WebDriverWait AddPetButton = new WebDriverWait(driver,50);
+		 * AddPetButton.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.
+		 * getProperty("addpet_button")))).click();
+		 */
 					 
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.findElement(By.xpath(prop.getProperty("pet_name"))).sendKeys((prop.getProperty("pet_name_info"))+"_" +System.currentTimeMillis());

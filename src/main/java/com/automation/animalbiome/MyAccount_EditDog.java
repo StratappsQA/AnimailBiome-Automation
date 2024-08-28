@@ -62,9 +62,13 @@ public class MyAccount_EditDog {
 		  act.moveToElement(driver.findElement(By.xpath(prop.getProperty(
 		  "p_flipback_last")))).perform();
 		  Thread.sleep(10000); 
-		  WebDriverWait wait1 =new WebDriverWait(driver, 50); 
-		  WebElement element4 =wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
-		  "p_edit")))); ((JavascriptExecutor)driver).executeScript("arguments[0].click();", element4);
+			/*
+			 * WebDriverWait wait1 =new WebDriverWait(driver, 50); WebElement element4
+			 * =wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.
+			 * getProperty( "p_edit"))));
+			 * ((JavascriptExecutor)driver).executeScript("arguments[0].click();",
+			 * element4);
+			 */
 		  js.executeScript("window.scrollBy(0,200)","");
 		  WebElement ele1 =driver.findElement(By.xpath(prop.getProperty("p_edit_nextbutton")));
 		  js.executeScript("arguments[0].click()", ele1);
@@ -112,13 +116,19 @@ public class MyAccount_EditDog {
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.xpath(prop.getProperty("p_flipback_last")))).perform();
 		Thread.sleep(10000); 
-		WebDriverWait wait = new WebDriverWait(driver, 50);
-		WebElement element3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty("p_edit"))));
 		
-		JavascriptExecutor js = (JavascriptExecutor) driver;  
-		js.executeScript("arguments[0].click();", element3);
-		js.executeScript("window.scrollBy(0,300)", "");
-		  Thread.sleep(2000);
+		/*
+		 * WebDriverWait wait = new WebDriverWait(driver, 50); WebElement element3 =
+		 * wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
+		 * "p_edit"))));
+		 */
+		
+		
+		 
+		/* js.executeScript("arguments[0].click();", element3); */
+		JavascriptExecutor js = (JavascriptExecutor) driver; 
+
+		js.executeScript("window.scrollBy(0,300)", "");		  Thread.sleep(2000);
 		 driver.findElement(By.xpath(prop.getProperty("p_edit_nextbutton"))).click();
 		 Thread.sleep(2000);
 		 js.executeScript("window.scrollBy(0,500)", "" );

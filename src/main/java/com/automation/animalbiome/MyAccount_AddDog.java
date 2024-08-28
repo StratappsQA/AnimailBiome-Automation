@@ -215,9 +215,11 @@ logger.info("Pagination is working");
 			  list2.get(i).click();
 		  break;
 		  } } Thread.sleep(5000);
-		  WebDriverWait wait = new WebDriverWait(driver,50);
-		  wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
-		  "p_addpet")))).click(); 
+		/*
+		 * WebDriverWait wait = new WebDriverWait(driver,50);
+		 * wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
+		 * "p_addpet")))).click();
+		 */
 	  
 	  logger.info("Selected the User profile through my account");
 	  }

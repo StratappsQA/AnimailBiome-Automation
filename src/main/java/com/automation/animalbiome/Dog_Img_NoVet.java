@@ -121,8 +121,11 @@ public void PetProfileCreation_Existuser_addpet_dogimg_novet() throws Exception 
 		{
 			logger.info("Started Creating the Dog Profile for exist User with image and no vet");
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			WebDriverWait wait = new WebDriverWait(driver,50);
-			wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty("addpet_button")))).click();	 
+			/*
+			 * WebDriverWait wait = new WebDriverWait(driver,50);
+			 * wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
+			 * "addpet_button")))).click();
+			 */ 
 			driver.findElement(By.xpath(prop.getProperty("pet_name"))).sendKeys((prop.getProperty("pet_name_info"))+"_" +System.currentTimeMillis());
 			driver.findElement(By.xpath(prop.getProperty("pet_years"))).sendKeys("3");
 			driver.findElement(By.xpath(prop.getProperty("pet_months"))).sendKeys("3");

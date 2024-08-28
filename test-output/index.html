@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-test" class="navigator-link">
-              <span class="suite-name border-failed">test</span>
+              <span class="suite-name border-passed">test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-test" class="navigator-link ">
-                    <span>D:\Automation\AnimailBiome-Automation\testng.xml</span>
+                    <span>D:\AnimailBiome-Automation\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-test" class="hide-methods failed suite-test"> (hide)</a> <!-- hide-methods failed suite-test -->
-                      <a href="#" panel-name="suite-test" class="show-methods failed suite-test"> (show)</a> <!-- show-methods failed suite-test -->
-                    </span>
-                    <div class="method-list-content failed suite-test">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-test" title="com.automation.animalbiome.Signup_Newuser" class="method navigator-link" hash-for-method="SignupProcess">SignupProcess</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-test -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,7 +104,7 @@
                     <div class="method-list-content passed suite-test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-test" title="com.automation.animalbiome.Signup_Newuser" class="method navigator-link" hash-for-method="OpeningWebApplication">OpeningWebApplication</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-test" title="com.automation.animalbiome.Signin_Existing_User" class="method navigator-link" hash-for-method="signin_existinguser">signin_existinguser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-test -->
@@ -133,55 +119,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-test" class="panel test">
-          <div class="suite-test-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.automation.animalbiome.Signup_Newuser</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignupProcess">
-                  </a> <!-- SignupProcess -->
-                  <span class="method-name">SignupProcess</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/app-root[1]/div[1]/app-signup[1]/section[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[2]/div[1]/input[1]&quot;}
-  (Session info: chrome=124.0.6367.119)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
-System info: host: &apos;BANOJ-1-SA&apos;, ip: &apos;172.16.16.127&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\banoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a81c4c68b93033a1ba2af7648bd4a333
-*** Element info: {Using=xpath, value=//body/app-root[1]/div[1]/app-signup[1]/section[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[2]/div[1]/input[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.automation.animalbiome.Signup_Newuser.SignupProcess(Signup_Newuser.java:65)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-test-class-failed -->
           <div class="suite-test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.automation.animalbiome.Signup_Newuser</span>
+              <span class="class-name">com.automation.animalbiome.Signin_Existing_User</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="OpeningWebApplication">
-                  </a> <!-- OpeningWebApplication -->
-                  <span class="method-name">OpeningWebApplication</span>
+                  <a name="signin_existinguser">
+                  </a> <!-- signin_existinguser -->
+                  <span class="method-name">signin_existinguser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,18 +137,18 @@ Session ID: a81c4c68b93033a1ba2af7648bd4a333
         </div> <!-- panel test -->
         <div panel-name="test-xml-test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Automation\AnimailBiome-Automation\testng.xml</span>
+            <span class="header-content">D:\AnimailBiome-Automation\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Signup_Newuser&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Signin_ExistingUser&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.automation.animalbiome.Signup_Newuser&quot;/&gt;
+      &lt;class name=&quot;com.automation.animalbiome.Signin_Existing_User&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Signup_Newuser --&gt;
+  &lt;/test&gt; &lt;!-- Signin_ExistingUser --&gt;
 &lt;/suite&gt; &lt;!-- test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,7 +160,7 @@ Session ID: a81c4c68b93033a1ba2af7648bd4a333
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Signup_Newuser (1 class)</span>
+                <span class="test-name">Signin_ExistingUser (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,20 +186,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'OpeningWebApplication')
-data.setCell(0, 2, 'com.automation.animalbiome.Signup_Newuser')
-data.setCell(0, 3, 46417);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SignupProcess')
-data.setCell(1, 2, 'com.automation.animalbiome.Signup_Newuser')
-data.setCell(1, 3, 8418);
+data.setCell(0, 1, 'signin_existinguser')
+data.setCell(0, 2, 'com.automation.animalbiome.Signin_Existing_User')
+data.setCell(0, 3, 31532);
 window.suiteTableData['test']= { tableData: data, tableDiv: 'times-div-test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-test">
               </div> <!-- times-div-test -->
             </div> <!-- times-div -->
@@ -277,16 +221,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.automation.animalbiome.Signup_Newuser</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.automation.animalbiome.Signin_Existing_User</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">OpeningWebApplication</span>
+                <span class="method-name">signin_existinguser</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">SignupProcess</span>
-                <span class="method-start">46428 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -162,8 +162,11 @@ import java.util.Properties;
 			driver.findElement(By.xpath(prop.getProperty("p_Myaccount"))).click();
 			 driver.findElement(By.xpath(prop.getProperty("p_userprofile"))).click();
 			 Thread.sleep(5000);
-			 WebDriverWait wait = new WebDriverWait(driver,50);
-			  wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty("p_addpet")))).click();	
+				/*
+				 * WebDriverWait wait = new WebDriverWait(driver,50);
+				 * wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
+				 * "p_addpet")))).click();
+				 */
 			  logger.info("Selected the User profile through my account");
 			  
 		}

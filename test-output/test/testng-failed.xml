@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [test]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Signup_Newuser(failed)">
+  <test thread-count="5" name="Signin_ExistingUser(failed)">
     <classes>
-      <class name="com.automation.animalbiome.Signup_Newuser">
+      <class name="com.automation.animalbiome.Signin_Existing_User">
         <methods>
-          <include name="SignupProcess"/>
+          <include name="signin_existinguser"/>
         </methods>
-      </class> <!-- com.automation.animalbiome.Signup_Newuser -->
+      </class> <!-- com.automation.animalbiome.Signin_Existing_User -->
     </classes>
-  </test> <!-- Signup_Newuser(failed) -->
+  </test> <!-- Signin_ExistingUser(failed) -->
 </suite> <!-- Failed suite [test] -->

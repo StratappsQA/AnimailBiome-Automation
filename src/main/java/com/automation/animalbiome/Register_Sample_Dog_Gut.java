@@ -53,9 +53,11 @@ public class Register_Sample_Dog_Gut {
 		  driver.findElement(By.xpath(prop.getProperty("p_calender"))).click();
 		  Thread.sleep(5000); 
 			
-			  WebDriverWait wait = new WebDriverWait(driver,50);
-			  wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
-			  "p_date_select")))).click();
+			/*
+			 * WebDriverWait wait = new WebDriverWait(driver,50);
+			 * wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
+			 * "p_date_select")))).click();
+			 */
 			  
 		 // driver.findElement(By.xpath(prop.getProperty("p_date_select"))).click();
 		  Thread.sleep(3000);

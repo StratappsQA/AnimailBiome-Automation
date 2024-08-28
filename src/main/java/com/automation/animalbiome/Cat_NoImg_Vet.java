@@ -149,9 +149,12 @@ public void Addcat_Noimg_vet() throws Exception {
 	}
 
 	private JavascriptExecutor AboutMyPet() throws Exception {
-		 WebDriverWait wait = new WebDriverWait(driver,50);
-		  wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty("p_addpet")))).click();	
-		Thread.sleep(2000);
+		/*
+		 * WebDriverWait wait = new WebDriverWait(driver,50);
+		 * wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
+		 * "p_addpet")))).click();
+		 */	
+		Thread.sleep(4000);
 		logger.info("Providing the Details of cat in About My Pet Section");
 		  driver.findElement(By.xpath(prop.getProperty("p_catradio"))).click();
 		  driver.findElement(By.xpath(prop.getProperty("pet_name"))).sendKeys((prop.

@@ -36,9 +36,12 @@ package com.automation.animalbiome;
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.xpath(prop.getProperty("p_flipback_last_1")))).perform();
 		Thread.sleep(10000);
-		WebDriverWait wait = new WebDriverWait(driver, 50);
-		WebElement element3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty("p_edit"))));
-		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element3);
+		/*
+		 * WebDriverWait wait = new WebDriverWait(driver, 50); WebElement element3 =
+		 * wait.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty(
+		 * "p_edit")))); ((JavascriptExecutor)
+		 * driver).executeScript("arguments[0].click();", element3);
+		 */
 		Thread.sleep(5000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		driver.findElement(By.xpath(prop.getProperty("edit_next_about"))).click();
@@ -90,9 +93,12 @@ package com.automation.animalbiome;
 		Actions act1 = new Actions(driver);
 		act1.moveToElement(driver.findElement(By.xpath(prop.getProperty("p_flipback_last_1")))).perform();
 		Thread.sleep(10000);
-		WebDriverWait wait1 = new WebDriverWait(driver, 50);
-		WebElement element31 = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty("p_edit"))));
-		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element31);
+		/*
+		 * WebDriverWait wait1 = new WebDriverWait(driver, 50); WebElement element31 =
+		 * wait1.until(ExpectedConditions.elementToBeClickable(By.xpath(prop.getProperty
+		 * ("p_edit")))); ((JavascriptExecutor)
+		 * driver).executeScript("arguments[0].click();", element31);
+		 */
 		
 		/*
 		 * //Actions act=new Actions(driver);
